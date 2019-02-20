@@ -1,0 +1,19 @@
+* {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h3 {
+    color: #1B75BB;    
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    color: #58585B;
+}
+
+.btn-pod {
+    font-size: 13px;
+}

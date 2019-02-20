@@ -1,0 +1,30 @@
+/* BASE STYLES */
+    
+* {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h3 {
+    color: #1B75BB;    
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    color: #58585B;
+}
+
+/* HEADER STYLES */
+ 
+#subtitle {
+    font-weight: 200;
+    letter-spacing: 1px; 
+}
+
+/* POD STYLES */
+
+.btn-pod {
+    font-size: 13px;
+}
