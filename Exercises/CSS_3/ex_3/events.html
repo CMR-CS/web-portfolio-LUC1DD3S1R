@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Community+Events</title>
+        <link href="assets/css/styles.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        
+        <!-- Anchor to the top of the page -->
+        <a id="top"></a>
+        
+        <!-- Site header content goes here -->
+        <header>
+            <span id="brand">Community+Events</span><br/>
+            <a href="login.html">Login</a>
+            <h1>Communicate: Create a community and post events.</h1>
+            <h2 id="subtitle">Connect: Join communities and attend events.</h2>
+            <img src="assets/img/people.gif" alt="Community+Events logo">
+        </header>
+        
+        <!-- Site navigation goes here -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Communities</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Form to filter through Event data goes here -->
+        <section>
+            <h2>Browse Events</h2>
+            
+            <button type="button">+</button> <span>Create an Event</span><br/><br/>
+            
+            <form action="" method="post">
+                <span>Select:</span><br/>
+                <input id="all" type="checkbox"/> <label for="all">All events</label><br/>
+                <input id="subbox-1" class="subboxes" type="checkbox"/> <label for="subbox-1">Events I am attending</label><br/>
+                <input id="subbox-2" class="subboxes" type="checkbox"/> <label for="subbox-2">Events I own</label><br/>
+                <input id="subbox-3" class="subboxes" type="checkbox"/> <label for="subbox-3">Academic Events</label><br/>
+                <input id="subbox-4" class="subboxes" type="checkbox"/> <label for="subbox-4">Health and Fitness Events</label><br/>
+                <input id="subbox-5" class="subboxes" type="checkbox"/> <label for="subbox-5">International Events</label><br/>
+                <input id="subbox-6" class="subboxes" type="checkbox"/> <label for="subbox-6">Panhellenic Events</label><br/>
+                <input id="subbox-7" class="subboxes" type="checkbox"/> <label for="subbox-7">Public Service Events</label><br/>
+                <input id="subbox-8" class="subboxes" type="checkbox"/> <label for="subbox-8">Social Events</label><br/>
+                <input id="remember-all" type="checkbox"/> <label for="remember-all">Remember my selections</label><br/><br/>
+                
+                <span>Search:</span><br/>
+                <input type="text"/><button type="submit">GO</button><br/>
+                <input id="filter-date" type="checkbox"/> <label for="filter-date">Filter by date</label><br/>
+                <label for="from-date">From:</label> <input id="from-date" type="date"/><br/>
+                <label for="to-date">To:</label> <input id="to-date" type="date"/>
+            </form>            
+        </section>
+        
+        <!-- Event pods contained here -->
+        <section>
+            <h2>Upcoming events:</h2>
+                
+            <div class="pod event-pod">
+                <h3>Holiday Potluck</h3>
+                <span>Anna's Book Club (Social)</span><br/>
+                <span>When: December 17, 2013 7:00 PM to 10:00 PM</span><br/>
+                <span>Where: 550 Peters Avenue, Pleasanton, CA 94566 map</span>
+                <p>We will discuss our book of the month. Come with one question or topic to discuss and remember to sign up for which dish you will bring. Wear your best festive outfits for a chance to win a prize!</p>
+                <button type="button" class="btn-pod">ATTEND</button>
+                <button type="button" class="btn-pod">SHARE</button>
+            </div>
+            
+            <hr/>
+            
+            <div class="pod event-pod">
+                <h3>Chemistry Connection</h3>
+                <span>College of Sciences (Academic)</span><br/>
+                <span>When: May 24, 2013 5:00 PM to 7:00 PM</span><br/>
+                <span>Where: 100 South Main Street, Shelbyville, TN 37160 map</span>
+                <p>A special 2 hour event to do experiments, complete lab assignments, and get help from faculty and students.</p>
+                <button type="button" class="btn-pod">ATTEND</button>
+                <button type="button" class="btn-pod">SHARE</button>
+            </div>
+            
+            <hr/>
+            
+            <div class="pod event-pod">
+                <h3>Morning Run</h3>
+                <span>Run Club (Health and Fitness)</span><br/>
+                <span>When: November 13, 2013 6:00 AM to 7:00 AM</span><br/>
+                <span>Where: 720 Fillmore Street, Alexandria, MN, 56308 map</span>
+                <p>Join us for our daily morning run, rain or shine.</p>
+                <button type="button" class="btn-pod">ATTEND</button>
+                <button type="button" class="btn-pod">SHARE</button>
+            </div>
+            
+            <hr/>
+            
+            <div class="pod event-pod">
+                <h3>Post-game clean up</h3>
+                <span>Clean Up Our Campus! (Public Service)</span><br/>
+                <span>When: September 2, 2013 9:00 PM to 10:00 PM</span><br/>
+                <span>Where: 713 Telfair Avenue, McRae, GA, 31055 map</span>
+                <p>After cheering on our Women's Volleyball team at the semi-finals playoff game, help us clear the stands and keep our gym clean.</p>
+                <button type="button" class="btn-pod">ATTEND</button>
+                <button type="button" class="btn-pod">SHARE</button>
+            </div>
+            
+            <hr/>
+            
+            <div class="pod event-pod">
+                <h3>Monthly Meet Up</h3>
+                <span>College of Sciences (Academic)</span><br/>
+                <span>When: June 5, 2013 2:00 PM to 4:00 PM</span><br/>
+                <span>Where: 100 South Main Street, Shelbyville, TN 37160 map</span>
+                <p>Join us for our last monthly gathering of the school year. This meeting will be a great opportunity to prep for your final exams with your peers.</p>
+                <button type="button" class="btn-pod">ATTEND</button>
+                <button type="button" class="btn-pod">SHARE</button>
+            </div>
+            
+            <hr/>                
+        </section>
+        
+        <!-- Back to Top link -->
+        <a href="#top">Back to Top</a><br/><br/>
+        
+        <!-- Site footer goes here -->
+        <footer>
+            &copy; 2013 Community+Events  
+        </footer>
+                      
+    </body>    
+</html>
