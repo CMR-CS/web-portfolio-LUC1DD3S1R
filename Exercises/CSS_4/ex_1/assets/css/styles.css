@@ -1,0 +1,136 @@
+/****************** 
+*** BASE STYLES ***
+******************/
+    
+* {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #1B75BB; 
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    margin-top: 0px;
+    color: #1B75BB;    
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    font-size: 18px;
+    line-height:36px;
+    width: 144px;
+    height: 36px;
+    padding-left: 9px;
+    margin-right: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #1B75BB;
+}
+
+a:hover {
+    color: #2898EF;
+}
+
+a:active {
+    color: #155D95;
+}
+
+span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form > span {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 12px;
+    color: #58585B;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+/******************** 
+*** HEADER STYLES ***
+********************/
+
+#brand {
+    font-size: 18px;
+    font-weight: 200;    
+}  
+
+#login-link {
+    font-size: 14px;
+}
+
+#subtitle {
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #000000; 
+}
+
+/************************* 
+*** BROWSE FORM STYLES ***
+*************************/
+
+.subboxes {
+    margin-left: 36px;
+}
+
+/***************** 
+*** POD STYLES ***
+*****************/
+
+#pod-section {
+    padding: 0px 24px 36px 24px;
+}
+
+.pod {
+    border: 1px solid #6D6E70;
+    padding: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.event-pod {
+    width: 45%;
+}
+
+.btn-pod {
+    font-size: 13px;
+    padding: 12px;
+}
+
+div > span {
+    font-size: 10px;
+}
+
+/********************
+*** FOOTER STYLES ***
+********************/
+
+#back-top {
+    font-size: 14px;
+}

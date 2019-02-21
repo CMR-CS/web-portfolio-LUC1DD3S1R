@@ -1,0 +1,75 @@
+/* BASE STYLES */
+    
+* {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+   font-size: 26px;
+   font-weight: 400;
+   color: #1B75BB; 
+}
+
+h3 {
+    color: #1B75BB;    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1B75BB;
+}
+
+a:hover {
+    color: #2898EF;
+}
+
+a:active {
+    color: #155D95;
+}
+
+span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+p {
+    font-family: Arial;
+    font-size: 12px;
+    color: #58585B;
+}
+
+footer {
+    font-size: 12px;
+}
+
+/* HEADER STYLES */
+
+#brand {
+    font-size: 18px;
+    font-weight: 200;    
+}  
+
+#subtitle {
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #000000; 
+}
+
+/* POD STYLES */
+
+.btn-pod {
+    font-size: 13px;
+}
+
+div > span {
+    font-size: 10px;
+}
