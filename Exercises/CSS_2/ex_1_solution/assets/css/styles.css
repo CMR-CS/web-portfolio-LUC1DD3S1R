@@ -1,5 +1,12 @@
+/* BASE STYLES */
+
 * {
     font-family: "Helvetica Neue", Arial, sans-serif;
+}
+/* POD STYLES */
+.btn-pod {
+font-size: 13px;
+
 }
 
 h3 {
@@ -13,3 +20,28 @@ span {
 p {
     color: #58585B;
 }
+/* HEADER STYLES */
+#subtitle {
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+
+<h2 id="subtitle">Connect: Join communities and attend events.</h2>
+
+<div>
+  <h3>Run Club</h3>
+  <span>Community type: Health and Fitness</span>
+  <p>This club is for anyone who loves the breeze in their hair and the early morning sunrise. Come run with us every morning (or whenever you can) and stay healthy all year long!</p>
+  <button type="button" class="btn-pod">JOIN</button>
+</div>
+
+
+<div>
+  <h3>Run Club</h3>
+  <span>Community type: Health and Fitness</span>
+  <p>This club is for anyone who loves the breeze in their hair and the early morning sunrise. Come run with us every morning (or whenever you can) and stay healthy all year long!</p>
+  <button type="button" class="btn-pod">JOIN</button>
+  <button type="button" class="btn-pod">SHARE</button>
+</div>
+
