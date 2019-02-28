@@ -17,6 +17,9 @@ h2 {
 h3 {
     color: #1B75BB;    
 }
+ul {
+  list-style: none;
+}
 
 span {
     font-size: 14px;
@@ -52,3 +55,12 @@ footer {
 .btn-pod {
     font-size: 13px;
 }
+
+section span {
+  font-size: 10px;
+}
+
+div > span {
+  font-size: 10px;
+}
+
