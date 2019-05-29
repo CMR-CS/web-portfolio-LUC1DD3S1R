@@ -2,7 +2,7 @@ nav ul{
     list-style: none;
 }
 body{
-    background-image: url(/web-portfolio-LUC1DD3S1R/image/synth.gif);
+    background-image: url(/image/synth.gif);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
@@ -51,6 +51,6 @@ h2{
     font-family:comic sans ms;
 }
 center{
- background-image: url(/web-portfolio-LUC1DD3S1R/image/car.gif);
+ background-image: url(/image/car.gif);
  height: 300;   
 }
