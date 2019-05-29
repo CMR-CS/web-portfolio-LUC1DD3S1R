@@ -1,0 +1,46 @@
+body{
+    background-image:url("/Marine-site/Image/ocean.jpg");
+}
+h1{
+    font-family:monospace;
+}
+p{
+ font-size: 30px;   
+}
+.nav{
+    background-color: aqua;
+}
+.mytooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.mytooltip .mytooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.mytooltip:hover .mytooltiptext {
+    visibility: visible;
+}
+.killerwhale{
+    width: 450px;
+}
+.dolphin{
+    width: 300px;
+}
+.turtle{
+    width: 100px;
+}
+.pic{
+    width: 150px;
+}
